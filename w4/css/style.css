@@ -1,8 +1,8 @@
 /* General Page Styles */
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
     padding: 20px;
-    background-color: #f4f4f4; /* Default Gray */
+    background-color: #eaf2f8; /* Soft light blue that complements the Dodgers palette */
 }
 
 /* SHARED STYLES: All boxes get these rules */
@@ -11,8 +11,9 @@ body {
     width: 100%;
     margin-bottom: 20px;
     padding: 20px;
-    border: 2px solid black; /* Default Border */
+    border: 3px solid #002244; /* Deep navy border */
     color: white; /* Default text color inside boxes */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a nice card depth */
 }
 
 /* UNIQUE STYLES: Update the HEX codes below */
